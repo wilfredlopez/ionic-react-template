@@ -1,5 +1,7 @@
 # CLI Install
 
+`npm install -g ionic`
+
 `ionic start [name of the app] [name of the template] --type=react`
 
 `tabs`: A tabs based layout

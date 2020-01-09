@@ -23,19 +23,12 @@ import {
   wifi
 } from "ionicons/icons";
 import React from "react";
+import Header from "../components/Header";
 
 const ListPage: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="center">
-            <IonMenuButton />
-          </IonButtons>
-          <IonTitle>List</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-
+      <Header title="List" />
       <IonContent>
         <ListItems />
       </IonContent>
